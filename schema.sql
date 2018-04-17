@@ -3,17 +3,17 @@ create database bamazon;
 
 use bamazon;
 
-
 ---create table for products---
 create table products(
-item_id integer AUTO_INCREMENT not null,
-product_name VARCHAR (100) not null,
-department_name VARCHAR (50) not null,
-price Decimal (10,2) not null,
-stock_quantity integer (10) not null,
-primary key(item_id)
+	item_id integer AUTO_INCREMENT not null,
+	product_name VARCHAR (100) not null,
+	department_name VARCHAR (50) not null,
+	price Decimal (10,2) not null,
+	stock_quantity integer (10) not null,
+	primary key(item_id)
 );
 
+SELECT * FROM products; 
 
 --Insert data into the 'products' table--
 
@@ -52,4 +52,11 @@ values ("iPhone X Case", "Electronics Accessories", 15.88, 7);
 
 insert into products (product_name, department_name, price, stock_quantity)
 values ("Whole30", "Cookbooks, Food & Wine", 32.99, 8);
+
+
+
+
+
+
+
 
