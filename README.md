@@ -1,5 +1,5 @@
 # bamazon
 
-Welcome to bamazon
+Welcome to bamazon :smile:
 
 
